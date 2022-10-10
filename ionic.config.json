@@ -1,0 +1,7 @@
+{
+  "name": "anApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
