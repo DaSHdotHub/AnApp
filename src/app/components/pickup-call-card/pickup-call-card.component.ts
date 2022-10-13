@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-pickup-call-card',
@@ -6,6 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pickup-call-card.component.scss'],
 })
 export class PickupCallCardComponent implements OnInit {
+
+  @Input() hasHeader: boolean;
+  @Input() hasFooter: boolean;
+
+  @Input() status: string;
+  @Input() updatedAt: string;
+  @Input() createdAt: string;
+  @Input() notes: string;
+
 
   constructor() { }
 
