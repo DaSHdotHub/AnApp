@@ -1,7 +1,6 @@
 <ion-header>
   <ion-toolbar color="tertiary">
     <ion-button slot="start">
-      <ion-icon name="arrow-back-outline"></ion-icon>
       <ion-back-button text=""></ion-back-button>
     </ion-button>
     <ion-title>Pickup Call</ion-title>
@@ -24,6 +23,6 @@
         <ion-textarea></ion-textarea>
       </ion-item>
     </ion-list>
-    <ion-button color="success" fill="clear" size="full">Confirm</ion-button>
+    <ion-button color="success" fill="clear" size="full" (click)="confirmAndGoToHome()">Confirm</ion-button>
   </ion-card>
 </ion-content>

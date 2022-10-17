@@ -13,7 +13,7 @@
 <ion-list color="tertiary">
   <ion-item color="tertiary">
     <ion-avatar slot="start">
-      <img src="https://support.hubstaff.com/wp-content/uploads/2019/08/good-pic.png"/>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Dave_Pegg_profile.jpg"/>
     </ion-avatar>
     <ion-label>
       <h1>Daniil</h1>
@@ -30,9 +30,9 @@
   <ion-card-header header>
     <ion-card-subtitle>Last pickup call</ion-card-subtitle>
   </ion-card-header>
-  <ion-button footer color="tertiary" size="full" fill="clear"> See all...</ion-button>
+  <ion-button footer color="tertiary" size="full" fill="clear" (click)="goToPickupCallSummary()"> See all...</ion-button>
 </app-pickup-call-card>
-<ion-fab vertical="bottom" slot="fixed" horizontal="end">
+<ion-fab vertical="bottom" slot="fixed" horizontal="end" (click)="goToPickupCall()">
   <ion-fab-button color="tertiary">
     <ion-icon name="add"></ion-icon>
   </ion-fab-button>

@@ -22,7 +22,7 @@ describe('AppComponent', () => {
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   }));
-
+  /*
   it('should have menu labels', waitForAsync(() => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
@@ -42,5 +42,6 @@ describe('AppComponent', () => {
     expect(menuItems[0].getAttribute('ng-reflect-router-link')).toEqual('/folder/Inbox');
     expect(menuItems[1].getAttribute('ng-reflect-router-link')).toEqual('/folder/Outbox');
   }));
+  */
 
 });
